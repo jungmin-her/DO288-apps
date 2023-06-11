@@ -10,8 +10,8 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-#echo "---> Installing application source"
-#cp -Rf /tmp/src/*.html ./
+echo "---> Installing application source"
+cp -Rf /tmp/src/*.html ./
 
 DATE=`date "+%b %d, %Y @ %H:%M %p"`
 
